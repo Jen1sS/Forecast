@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tempo</title>
+
+    <script src="./js/app.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<header>
+    <div id="c"></div>
+    <div id="dataPos">
+        Displaying data for:
+    </div>
+</header>
+
+<body onload="setup()">
+
+    <div class="container">
+        <div class="widget" id="today">
+            <div id="top">
+                <h2>Current weather</h2>
+            </div>
+            <hr>
+
+            <div id="hours">
+                <h4>Next Hours: </h4>
+                <div id="a"></div>
+            </div>
+
+            <div class="subsub">
+                <div class="widget" id="windS">
+                    <h5>Wind</h5>
+                    <br>
+                </div>
+
+                <div class="widget" id="temperature">
+                    <h5 class="temperature">Temperature</h5>
+                    <br>
+                </div>
+            </div>
+
+            <div class="subsub">
+                <div class="widget" id="uv">
+                    <h5 class="small">UV Index</h5>
+                    <br>
+                </div>
+
+                <div class="widget" id="dire">
+                    <h5 class="small">Direction</h5>
+                    <br>
+                    <img src="./img/arrow.png" class="mini" id="arrow">
+                    <div id="degree"></div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        <div id="days">
+            <div class="widget" id="title">
+                <h2>Next Days</h2>
+            </div>
+
+            <div class="widget" id="bottom">
+                <div id="next"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
